@@ -1,30 +1,27 @@
 # Galaxia Caos
-# Solid of Revolution
 ## Realizado por Martín van Puffelen López
 ### Práctica 3 CIU: *Transformaciones*
 ___
 
 #### Introducción
-##### En esta práctica, se ha simulado un sistema astronómico caótico inhabitable donde ocurren movimientos y trayectorias bruscas y poco usuales mediante la creación de objetos 3D y sus transformaciones: rotación, traslación y escalado.
+##### Simulación de una galaxia incoherente, casi inhabitable, donde el Sol (Cream) es el satélite más pequeño y la Luna (Planetoon), el planeta más grande.
+##### Integración de objetos 3D (PShape) que sufren transfrormaciones (rotación, traslación, escalado) para producir una animación.
 
 #### Instrucciones
 ##### Ejecutar programa y apreciar animación donde existen satélites y planetas que orbitan y rotan. Será posible modificar el modo de visibilidad: ver sólo planetas, sólo satélites o todos los cuerpos (por defecto).
 
-#### Recorrido interfaz
-##### La idea de la interfaz ha sido simular una galaxia incoherente, de ahí el nombre, con texturas para los objetos que no son habituales, donde el sol es el satélite más pequeño y la Luna el planeta más grande 
-
-![Imagen Principal](https://github.com/martinvplopez/Solid-of-revolution/blob/main/Practica2_SolidoRevolucion/images/ventanaDefault.jpg)
-####
-![Imagen Dibujo](https://github.com/martinvplopez/Solid-of-revolution/blob/main/Practica2_SolidoRevolucion/images/ventanaDraw.jpg)
-####
-![Imagen Sólido](https://github.com/martinvplopez/Solid-of-revolution/blob/main/Practica2_SolidoRevolucion/images/ventanaSolido.jpg)
+![Imagen Principal](https://github.com/martinvplopez/Galaxia-Caos-CIU/blob/main/images/presentation.gif)
 
 #### Detalles implementación
-- ##### **Información**: *Botón de ayuda*, es lo suficientemente sencillo para informar pero se ha decidido implementar como botón *interruptor* para que no moleste y solo se muestre al ser requerido por el usuario, mayor control y limpieza en la interfaz.
-- ##### **Color**: se ha elegido el color naranja como color principal (malla del sólido e instrucciones) ya que es un color que invita a la creatividad y aporta la suficiente intensidad.
-- ##### **Teclas**: *R* para que volver a dibujar, intuitiva asociación de la tecla con el concepto *reset* y *ESPACIO* para iniciar la revolución, de nuevo una tecla estándar.
+#### Es un programa que no requiere un flujo para el usuario y así también se previenen errores aunque se aportan herramientas de control y visibilidad aumentando así la percepción de aplicación interactiva.
+- ##### **Información**: *Botones Mostrar/Ocultar*, dispone de un buen tamaño, al clicar cambia su estado y a su vez el texto de los cuerpos celestes visibles cambia para aportar un feedback e información extra al usuario. 
+- ##### **Color**: Blanco para resaltar de la mejor forma posible 
+- ##### **Texturas**: Se han seleccionado texturas de elementos naturales y primitivos, por ejemplo, arena, agua o roca, para resaltar la idea de sistema hostil y no habitado.
+
+#### Posibles modificaciones
+##### El poder seleccionar un sólo objeto y ver sus características ( oxígeno, Co2, etcétera).
 
 #### Referencias
-- [Documentación asignatura](https://github.com/otsedom/otsedom.github.io/blob/main/CIU/P2/README.md)
-- [Sonido Tifón](https://freewavesamples.com/casio-mt-600-typhoon-sound)
+- [Documentación asignatura](https://github.com/otsedom/otsedom.github.io/blob/main/CIU/P3/README.md)
+- [Imágenes de Google](https://www.google.com/imghp?hl=EN)
 - [Documentación Processing](https://processing.org/reference)
